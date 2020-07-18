@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:replace="~{fragments/layout :: layout (~{::body},'index')}">
+
+<body>
+
+
+  <div class="container">
+  <form action="/generate" method="post">
+  <div class="col-md-12">
+  <h3 style="font-family:cursive;">Real URL shortener</h3>
+  <div class="col-md-10"><input type="text" placeholder="url" class="form-control" name="longurl"></div>
+ <div class="col-md-2"> <input type="submit" class="btn btn-primary" value="Generate"></div>
+  </div>
+  </form>
+</div>
+
+</body>
+</html>

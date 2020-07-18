@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:replace="~{fragments/layout :: layout (~{::body},'gen')}">
+
+<body>
+
+
+  <div class="container">
+ 
+ <input th:value="${shorturl}" onClick="this.select();" class="form-control"/>
+</div>
+
+</body>
+</html>
